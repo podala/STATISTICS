@@ -1,0 +1,7 @@
+Let’s take a linear regression model for example. You probably know this already, but the model makes a good amount of assumptions for the data you provide, such as:
+Linearity: assumes that the relationship between predictors and target variable is linear
+No noise: eg. that there are no outliers in the data
+No collinearity: if you have highly correlated predictors, it’s most likely your model will overfit
+Normal distribution: more reliable predictions are made if the predictors and the target variable are normally distributed
+Scale: it’s a distance-based algorithm, so preditors should be scaled — like with standard scaler
+Log,square root and Box-cox helps to reduce the skewness
